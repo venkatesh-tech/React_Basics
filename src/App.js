@@ -5,6 +5,7 @@ import Hello from "./components/Hello";
 import "./App.css";
 import { Component } from "react";
 import Message from "./components/Message";
+import Counter from "./components/Counter";
 
 // function App() {
 //   return (
@@ -32,7 +33,8 @@ class App extends Component {
         </Welcome> */}
 
         {/* Here props is not passed for subscribe button as props are immutabe  sol is to use state*/}
-        <Message />
+        {/* <Message /> */}
+        <Counter />
       </div>
     );
   }
