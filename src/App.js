@@ -4,6 +4,7 @@ import Welcome from "./components/Welcome";
 import Hello from "./components/Hello";
 import "./App.css";
 import { Component } from "react";
+import Message from "./components/Message";
 
 // function App() {
 //   return (
@@ -25,10 +26,13 @@ import { Component } from "react";
 class App extends Component {
   render() {
     return (
-      <div>
-        <Greet name="Bruce" heroName="Batman">
+      <div className="App">
+        {/* <Welcome name="Bruce" heroName="Batman">
           <p>This is children props</p>
-        </Greet>
+        </Welcome> */}
+
+        {/* Here props is not passed for subscribe button as props are immutabe  sol is to use state*/}
+        <Message />
       </div>
     );
   }
