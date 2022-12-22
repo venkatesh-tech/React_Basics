@@ -6,18 +6,20 @@ import "./App.css";
 import { Component } from "react";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
+import FunctionClick from "./components/FunctionClick";
+import ClassClick from "./components/ClassClick";
 
 // function App() {
 //   return (
 //     <div className="App">
-//       <Greet name="Bruce" heroName="Batman">
+//       {/* <Greet name="Bruce" heroName="Batman">
 //         <p>This is children props</p>
 //       </Greet>
 //       <Greet name="clark" heroName="Superman">
 //         <button>button</button>
-//       </Greet>
+//       </Greet> */}
 
-//       <Greet name="Diana" heroName="WonderWoman" />
+//       {/* <Greet name="Diana" heroName="WonderWoman" /> */}
 //       {/* <Welcome />
 //       <Hello /> */}
 //     </div>
@@ -34,7 +36,9 @@ class App extends Component {
 
         {/* Here props is not passed for subscribe button as props are immutabe  sol is to use state*/}
         {/* <Message /> */}
-        <Counter />
+        {/* <Counter /> */}
+        {/* <FunctionClick /> */}
+        <ClassClick />
       </div>
     );
   }
